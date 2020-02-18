@@ -1,0 +1,20 @@
+
+<ul>
+
+  {% for indianbank in object_list %}
+    
+    <li>
+      <h2>Branch: {{indianbank.branch}} , Bank_name: {{indianbank.bank_name}} </h2>
+      <h3>city: {{indianbank.city}} , state: {{indianbank.state}} </h3>
+      <h4>Address: {{indianbank.address}}</h4>
+      
+      
+      
+
+    </li>
+      
+  {% endfor %}
+
+
+</ul>
+
