@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bankapp.apps.BankappConfig',
+    'restapi.apps.RestapiConfig',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [

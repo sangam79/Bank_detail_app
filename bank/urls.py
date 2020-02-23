@@ -18,6 +18,7 @@ from django.urls import include, path
 
 urlpatterns = [
     path('', include('bankapp.urls')),
+    path('api/', include('restapi.urls')),
     path('admin/', admin.site.urls),
 
 ]
